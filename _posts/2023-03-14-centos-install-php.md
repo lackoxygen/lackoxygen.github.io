@@ -2,7 +2,7 @@
 layout: post
 title: CentOS环境安装PHP
 subtitle: CentOS环境安装PHP
-tags: [php]
+tags: [php, centos]
 comments: true
 ---
 
