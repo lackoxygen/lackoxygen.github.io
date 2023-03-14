@@ -7,7 +7,9 @@ comments: true
 ---
 
 **执行挂载命令**
-- 挂载的文件夹必须是空目录
+
+{: .box-warning}
+**挂载的文件夹必须是空目录.**
 ```
 sudo vmhgfs-fuse .host:/ /mnt/hgfs
 ```
