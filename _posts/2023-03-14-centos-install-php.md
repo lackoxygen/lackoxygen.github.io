@@ -72,6 +72,7 @@ php -v
 
 **常见问题**
 
+{: .box-warning}
 > No package 'oniguruma' found
 
 ```
@@ -82,6 +83,7 @@ yum -y install https://repo.huaweicloud.com/centos/7.9.2009/cloud/x86_64/opensta
 
 ---
 
+{: .box-warning}
 > configure: WARNING: unrecognized options
 
 删除提示对应参数选项
