@@ -1,16 +1,15 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: introduction
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+- Post-90s Backend Development
+- Location Guangzhou
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+**technology stack**
 
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+| -        | Stack                                                                                                                                                                                                                                    |
+|:---------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Language | ![](https://img.shields.io/badge/-PHP-777BB4?style=flat&logo=php&logoColor=white) ![](https://img.shields.io/badge/-GO-777BB4?style=flat&logo=go&logoColor=blue) ![](https://img.shields.io/badge/-Java-fff?&logo=Java&logoColor=007396) |
+| OS       | ![](https://img.shields.io/badge/-MacOS-000000?style=flat&logo=apple&logoColor=white) ![](https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=white)                                                              |
