@@ -31,7 +31,8 @@ PHP_RSHUTDOWN
 PHP_MSHUTDOWN
 ```
 
-#### example
+#### 注册生命周期函数
+
 ```
 zend_module_entry example_module_entry = {
 	STANDARD_MODULE_HEADER,
@@ -45,3 +46,4 @@ zend_module_entry example_module_entry = {
 	PHP_EXAMPLE_VERSION,		/* Version */
 	STANDARD_MODULE_PROPERTIES
 };
+```
