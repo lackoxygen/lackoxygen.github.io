@@ -1,7 +1,7 @@
 ---
 layout: post
 title: springBoot注解路由
-subtitle: 构建jar或war包
+subtitle: 路由用法
 tags: [java]
 comments: true
 ---
