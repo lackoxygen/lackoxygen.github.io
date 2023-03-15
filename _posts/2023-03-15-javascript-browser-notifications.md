@@ -88,6 +88,7 @@ setTimeout(n.close.bind(n), 5000);
 </script>
 </html>
 ```
+![](/assets/img/posts/mac-google-notify.png)
 
 {: .box-note}
 **谷歌浏览器无反应**
