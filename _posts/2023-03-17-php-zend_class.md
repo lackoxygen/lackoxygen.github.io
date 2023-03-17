@@ -314,16 +314,12 @@ PHP_MINIT_FUNCTION (example) {
 
 **安装并测试**
 
-- 安装
 ```
 phpize
 ./configure
 make && make install
 echo extension=example >> php.ini
-```
 
-- 测试
-```
 $conn = new \Lackoxygen\Conn('127.0.0.1', '123456', 6379);
 
 $conn->setHost('192.168.0.1');
