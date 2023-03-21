@@ -1,7 +1,7 @@
 ---
 layout: post
 title: php-ext创建一个类
-subtitle: 路由用法
+subtitle: zend class
 tags: [php]
 comments: true
 ---
