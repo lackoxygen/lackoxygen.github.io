@@ -2,7 +2,7 @@
 layout: post
 title: 提取doc文档的内容
 subtitle: 使用不同的方法提取word文档
-tags: [ python,php ]
+tags: [linux]
 comments: true
 ---
 ### 提取word文档里面的内容
