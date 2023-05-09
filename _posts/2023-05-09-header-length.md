@@ -12,12 +12,32 @@ comments: true
 
 多个字节的大小，2 << (8 * 字节数) - 1
 
-### 通过最大长度计算需要的字节数
+### 根据最大长度计算需要的字节数
 
 ```
 function bytes_num(int $count)
 {
     return ceil(bcdiv(bcdiv(log($count + 1), log(2), 10), 8, 10));
+}
+```
+
+### 根据长度得到数据长度字节
+```
+function bytes(int $count)
+{
+    $num = bytes_num($count);
+
+    $array = [];
+
+    for ($i = 0; $i < $num; $i++) {
+        if ($i == $num - 1) {
+            $array[$i] = $count & 0xFF;
+        } else {
+            $array[$i] = ($count >> (8 * ($num - $i - 1))) & 0xFF;
+        }
+    }
+
+    return $array;
 }
 ```
 
