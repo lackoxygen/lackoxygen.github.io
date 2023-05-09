@@ -5,6 +5,7 @@ subtitle: 使用不同的方法提取word文档
 tags: [linux]
 comments: true
 ---
+
 ### 提取word文档里面的内容
 
 ### 通过`antiword`解析doc内容
