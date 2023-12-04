@@ -45,6 +45,8 @@ let a:String = String::from("1024");
 let b:String = a;    //String不具有copy特征，a转移所有权给b, a moved
 
 assert_eq!(a, b);   //move occurs because `a` has type `String`, which does not implement the `Copy` trait
+
+//How to solve: use clone, let b:String = a.clone()
 ```
 
 **引用**
